@@ -184,3 +184,75 @@ li, a {
 	letter-spacing: 0.03em;
 	color: #FFFFFF;
 }
+
+/*+++++++++++++++++About Me Section++++++++++++++++++++++++*/
+
+.about-me-section {
+	align-items: center;
+	padding: 80px 0px;
+	gap: 48px;
+	width: 1171px;
+	height: 808px;
+	left: 135px;
+	top: 2331px;
+}
+.about-me-bg {
+	margin-top: 100px;
+	position: absolute;
+	width: 1280px;
+	height: 331px;
+	top: 2307px;
+	background-image:
+    url("/images/about-me-right-bg.svg"),
+    url("/images/about-me-left-bg.svg");
+  background-position: top right, left bottom;
+  background-repeat: no-repeat;
+}
+
+.about-title {
+	padding: 20px;
+}
+.about-title h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+	color: #172B4D;
+}
+
+.about-par {
+	width: 820px;
+	height: 96px;
+}
+
+.about-par p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	padding: 0 15px;
+	text-align: center;
+	color: #42526E;
+}
+
+.resume-btn {
+	padding: 24px;
+}
+.about-btn {
+	align-items: center;
+	padding: 12px;
+	gap: 10px;
+	width: 159px;
+	height: 48px;
+	background: #36B37F;
+	border-radius: 4px;
+	border: none;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
