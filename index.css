@@ -377,3 +377,29 @@ textarea {
   letter-spacing: 0.03em;
   color: #fff;
 }
+
+/* ++++++++++++++++Bottom Navigation Social media+++++++++++++++ */
+.bottom-social {
+  margin-top: 30px;
+  border-top: 1px solid  #dfe1e6;
+  padding: 20px;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 72px;
+  width: auto;
+  gap: 18px;
+}
+
+.container.social {
+  height: 72px;
+  height: 20px;
+}
+
+a > i {
+  font-size: 22px;
+  color: #505f79;
+}
