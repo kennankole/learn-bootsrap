@@ -292,3 +292,88 @@ a {
 .language-title {
   padding: 20px;
 }
+
+/* +++++++++++++++++++++++++++++Contact form section+++++++++++++++++++++++++++++ */
+.contact-form-section {
+  margin-top: 800px;
+  height: auto;
+  width: 100%;
+  background-image:
+    url(
+      "/images/contact-right-bg.svg"
+    ),
+    url("/images/contact-center-bg.svg"),
+    url("/images/contact-left-bg.svg");
+  background-position: 100% 80%, 25% 95%, bottom left;
+  background-repeat: no-repeat;
+}
+
+.form-content {
+  margin-top: -300px;
+  width: 1100px;
+  height: 490px;
+  margin-left: 100px;
+}
+
+.container.form {
+  width: 1171px;
+  height: 490px;
+}
+
+.form-para {
+  width: 363px;
+  height: 156px;
+  margin-left: 10px;
+}
+
+.form-para p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 60px;
+  text-align: start;
+}
+
+.contact-form {
+  width: 684px;
+  height: 330px;
+}
+
+input[type="text"] {
+  height: 48px;
+  width: 315px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  height: 48px;
+  width: 654px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 654px;
+  height: 114px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.btn-submit {
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
