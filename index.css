@@ -196,6 +196,12 @@ li, a {
 	left: 135px;
 	top: 2331px;
 }
+.container.about {
+	border: 1px solid black;
+	width: 1171px;
+	height: 808px;
+}
+
 .about-me-bg {
 	margin-top: 100px;
 	position: absolute;
@@ -212,6 +218,7 @@ li, a {
 .about-title {
 	padding: 20px;
 }
+
 .about-title h1 {
 	font-family: 'Inter';
 	font-style: normal;
@@ -255,4 +262,31 @@ li, a {
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	color: #FFFFFF;
+}
+
+/*-------cards------*/
+.col.card {
+	width: 369px;
+	height: 352px;
+	border: 1px solid black;
+	margin: 5px;
+	background: #EBF0EE;
+	border: 1px solid #C1C7D0;
+	border-radius: 8px;
+}
+
+.language-frame.language-card > li {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	color: #36B37E;
+	background: #FFFFFF;
+	padding: 12px;
+}
+
+#language-title {
+	padding: 20px;
 }
