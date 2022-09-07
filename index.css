@@ -198,8 +198,9 @@ a {
   gap: 48px;
   width: 1171px;
   height: 808px;
-  left: 135px;
-  top: 2331px;
+
+  /* left: 135px;
+  top: 2331px; */
 }
 
 .container.about {
@@ -208,7 +209,7 @@ a {
 }
 
 .about-me-bg {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   position: absolute;
   width: 1280px;
   height: 331px;
@@ -295,7 +296,7 @@ a {
 
 /* +++++++++++++++++++++++++++++Contact form section+++++++++++++++++++++++++++++ */
 .contact-form-section {
-  margin-top: 800px;
+  /* margin-top: 800px; */
   height: auto;
   width: 100%;
   background-image:
@@ -309,7 +310,7 @@ a {
 }
 
 .form-content {
-  margin-top: -300px;
+  /* margin-top: -300px; */
   width: 1100px;
   height: 490px;
   margin-left: 100px;
