@@ -9,6 +9,7 @@
 /* +++++++++++++++++++++++++++Navigation menu+++++++++++++++++++++++ */
 nav {
   background-color: #fff;
+  border: 1px solid black;
 }
 
 .navbar-brand {
@@ -102,6 +103,7 @@ a {
 .works {
   width: 1171px;
   height: 1244px;
+  height: 100%;
 }
 
 .work-cards {
@@ -230,13 +232,16 @@ a {
   background-repeat: no-repeat;
   width: 1300px;
   height: 331px;
-  margin-top: -150px;
+  height: 100%;
+  /* margin-top: -150px; */
 }
 
 .about-me {
   padding: 80px 0;
   width: 1171px;
   height: 808px;
+  height: 100%;
+  margin-top: 300px;
 }
 
 .about-card {
@@ -246,7 +251,8 @@ a {
   height: 352px;
   width: 369px;
   margin: 6px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  border: 1px solid black;
 }
 
 .about-language-frame {
@@ -322,7 +328,7 @@ a {
 
 /* ++++++++++++++++++++++++++++++++++++Form Section++++++++++++++++++++++++++++++++ */
 .contact-form-section {
-  margin-top: 500px;
+  /* margin-top: 500px; */
 }
 
 .contact-form-bg {
@@ -334,6 +340,7 @@ a {
     url("/images/contact-left-bg.svg");
   background-position: 100% 80%, 25% 95%, bottom left;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 .contact-form {
@@ -357,6 +364,7 @@ form {
   width: 684px;
   margin: 8px;
   box-sizing: border-box;
+  height: 100%;
 }
 
 input[type="email"] {
@@ -413,4 +421,15 @@ textarea {
   width: 1300px;
   border-top: 1px solid #d0d9d4;
   background-color: #fff;
+}
+
+
+/*+++++++++++++++++++++++++++Breakpoints++++++++++++++++++++++++++*/
+main {
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  border: 1px solid black;
 }
