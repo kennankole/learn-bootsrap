@@ -8,45 +8,59 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/bc719f0ade.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="./home.css">
+	<link rel="stylesheet" href="home.css">
 	<title>Bootstrap breakpoint</title>
 </head>
 
 <body>
 	<!-------------------------------Navbar-------------------------------->
 	<nav class="navbar navbar-light">
-		<div class="container justify-content-md-center">
+		<div class="container menu justify-content-md-center">
 			<a class="navbar-brand" href="#">Portfolio</a>
 			<a class="navbar-brand" href="#">About</a>
 			<a class="navbar-brand" href="#">Contact</a>
 		</div>
+		<div class="humberger-menu">
+			<ul class="left-menu">
+				<li>Welcome</li>
+			</ul>
+			<ul class="right-menu">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
 	</nav>
+	
 	<!---------------------------Headline Section------------------------->
+<main>
 	<section class="headline-section">
 		<div class="container headline">
 			<div class="row justify-content-md-center ">
-				<div class="col col-lg-6 headline-content">
+				<div class="col-xs-2 col-sm-8 col-md-8 col-lg-3 headline-content">
 					<div class="headline-text">
-						<h1 class="text-center dark">Hey there. I’m Anko.</h1>
+						<h1 class="text-center dark">Hey there. I’m Kennankole Anko.</h1>
 						<h2 class="text-center green">I’m a software developer</h2>
 					</div>
 					<div class="row justify-content-md-center headline-para">
-						<div class="col col-lg-8">
-							<p class="text-center">
+						<div class="col">
+							<p class="text-center text-para">
 								I can help you build a product ,
 								feature or website Look through some of my work and experience!
 								If you like what you see and have a project you need coded,
 								don’t hestiate to contact me.
 							</p>
 						</div>
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-github"></i></a></li>
-							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter footer-link"></i></a></li>
-							<li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-						</ul>
-						<div class="col col-lg-2 image">
+						<div class="col-xs-8 justify-content-md-center">
+							<ul class="social-icons">
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter footer-link"></i></a></li>
+								<li><a href="#"><i class="fa-solid fa-m"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-xs-2 col-sm-8 col-md-4 image">
 							<img src="./images/Disabled.svg" alt="">
 						</div>
 					</div>
@@ -61,7 +75,7 @@
 		<div class="container works">
 			<div class="row row-cols-2 justify-content-md-center">
 				<!---Card one -->
-				<div class="col work-cards">
+				<div class="col-xs-9 col-sm-6 col-md-7 work-cards">
 					<div class="row row-cols-1">
 						<div class="col upper-part"></div>
 						<div class="col lower-part">
@@ -79,7 +93,7 @@
 					</div>
 				</div>
 				<!---Card two -->
-				<div class="col work-cards">
+				<div class="colcol-xs-9 col-md-7 work-cards">
 					<div class="row row-cols-1">
 						<div class="col upper-part"></div>
 						<div class="col lower-part">
@@ -177,25 +191,27 @@
 
 	<!----------------------About Me Section----------------------------->
 	<section class="about-me-section">
-		<!-- <div class="about-me-bg"></div> -->
+		<div class="about-me-bg"></div>
 		<div class="container about-me">
 			<!-- About me text -->
 			<div class="row row-cols-1 justify-content-md-center">
-				<div class="col about-title">
-					<h1 class="text-center">About me</h1>
-				</div>
-				<div class="col about-para">
-					<p class="text-center">
-						I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-						don’t hestiate to contact me.
-					</p>
-					<div class="about-btn">
+				<div class="about-me-text">
+					<div class="about-title">
+						<h1 class="text-center">About me</h1>
+					</div>
+					<div class="col-lg about-para">
+						<p class="text-center">
+							I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+							don’t hestiate to contact me.
+						</p>
+					</div>
+					<div class="col about-btn">
 						<button type="submit">Get My Resume</button>
 					</div>
 				</div>
 			</div>
 			<!-- About me cards -->
-			<div class="row row-cols-1 justify-content-md-center">
+			<div class="row row-cols-1 justify-content-md-center about-me-cards">
 				<div class="col about-card">
 					<img src="./images/Icons.svg" alt="">
 					<h3 class="text-center">Languages</h3>
@@ -219,7 +235,7 @@
 				</div>
 				<div class="col about-card">
 					<img src="./images/Icons-3.svg" alt="">
-					<h3 class="text-center">Skills</h3>
+					<h3 class="text-center">Skiills</h3>
 					<ul class="about-language-frame">
 						<li>Codekit</li>
 						<li>GitHub</li>
@@ -236,23 +252,22 @@
 	<section class="contact-form-section">
 		<div class="contact-form-bg">
 			<div class="container contact-form">
-				<div class="row row-cols-2">
-					<div class="col col-3 form-text">
+				<div class="row">
+					<div class="col-xs-8 col-sm-6 col-md-4 col-xl-4 form-text">
 						<p>
 							I'm always interested in hearing about new projects, 
 							so if you'd like to chat please get in touch.
 						</p>
 					</div>
-					<div class="col">
+					<div class="col-xs-8 col-sm-6 col-md-4 col-xl-4">
 						<form action="/" method="post">
-							<div class="row row-cols-1">
-								<div class="col-6">
+							<div class="row">
+								<div class="col-xs-4 col-sm-6 col-md-4 col-xl-6">
 									<input type="text" id="firstname" placeholder="First Name">
 								</div>
-								<div class="col-6">
+								<div class="col-xs-2 col-sm-2 col-md-4 col-xl-6 lastname">
 									<input type="text" id="lasttname" placeholder="Last Name">
 								</div>
-								<div class="col"></div>
 							</div>
 							<div class="row">
 								<div class="col">
@@ -264,7 +279,9 @@
 									<textarea name="message" id="message" placeholder="Enter message here"></textarea>
 								</div>
 							</div>
-							<button type="submit" id="formbtn">Get In Touch</button>
+							<div class="contact-form-btn">
+								<button type="submit" id="formbtn">Get In Touch</button>
+							</div>
 						</form>
 					</div>
 				</div>
@@ -285,10 +302,11 @@
 			</ul>
 		</footer>
 	</section>
-	
+	</main>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
